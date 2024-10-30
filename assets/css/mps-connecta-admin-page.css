@@ -1,0 +1,53 @@
+.tablenav-pages-navspan{
+    height: auto;
+}
+
+.wp-list-table td{
+    vertical-align: middle;
+    padding: 20px 8px;
+}
+
+.wp-list-table th td{
+    vertical-align: middle;
+    text-align: center;
+    width: auto;
+}
+
+.wp-list-table .column-ebay_id { width: 200px; }
+.wp-list-table .column-woo_id { width: 120px; }
+.wp-list-table .column-user_id { width: 120px; }
+/* .wp-list-table .column-username { width: 10%; } */
+.wp-list-table .column-email { width: auto; }
+/* .wp-list-table .column-phone { width: 10%; } */
+.wp-list-table .column-payment_status { width: 10%; }
+.wp-list-table .column-fulfillment_status { width: 10%; }
+.wp-list-table .column-processing_status { width: 10%; }
+.wp-list-table .column-account_status { width: 100px; }
+.wp-list-table .column-total { width: 10%; text-align:right; }
+
+.mtEbayBadge{
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    border-bottom: 1px solid rgba(0,0,0,.05);
+}
+.mtEbayBadge-success{
+    background: #c6e1c6 !important;
+    color: #5b841b;
+}
+.mtEbayBadge-danger{
+    background: #eba3a3!important;
+    color: #761919;
+}
+.mtEbayBadge-primary{
+    background: #c8d7e1 !important;
+    color: #2e4453;
+}
+.mtEbayBadge-secondary{
+    background: #e5e5e5 !important;
+    color: #777;
+}
+.mtEbayBadge-warning{
+    background: #f1e6b0 !important;
+    color: #827824;
+}
